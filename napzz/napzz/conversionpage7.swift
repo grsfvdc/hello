@@ -181,7 +181,7 @@ struct ConversionPage7: View {
                             .padding(.horizontal, 20)
                             
                             // Improvement text with better styling
-                            Text("Request improvement in just 3 days")
+                            Text("See improvement in just 3 days")
                                 .font(.system(size: 16, weight: .medium))
                                 .foregroundColor(.white.opacity(0.7))
                                 .padding(.horizontal, 40)
@@ -190,7 +190,7 @@ struct ConversionPage7: View {
                         
                         // Bottom text with statistics - enhanced styling
                         VStack(spacing: 20) {
-                            Text("ShutEye partnered with top sleep experts and has already helped ")
+                            Text("Partnered with top sleep experts, ShutEye has helped ")
                                 .font(.system(size: 16, weight: .medium))
                                 .foregroundColor(.white.opacity(0.9))
                             +
@@ -198,13 +198,14 @@ struct ConversionPage7: View {
                                 .font(.system(size: 16, weight: .bold))
                                 .foregroundColor(.cyan)
                             +
-                            Text(" fall asleep faster, spend more time asleep, and wake up less during the night.")
+                            Text(" achieve better sleep quality.")
                                 .font(.system(size: 16, weight: .medium))
                                 .foregroundColor(.white.opacity(0.9))
                         }
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 30)
                         .padding(.top, 20)
+                        .padding(.bottom, 100)
                         
                         Spacer()
                     }
